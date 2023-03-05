@@ -1,0 +1,6 @@
+[user]
+    name = Ouahabi
+    email = iouahabi1@myges.fr
+
+[merge]
+        template = merge_request_template.md

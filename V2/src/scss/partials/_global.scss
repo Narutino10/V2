@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100vh;
+}
+img{
+    max-width: 100%;
+}
+.container{
+	max-width: 1170px;
+	margin: auto;
+}
+header{
+    background-color:var(--noir);
+}
+a{
+    text-decoration:none;
+    color:inherit;
+}
+ul li{
+    list-style: none;
+    color:$white;
+}

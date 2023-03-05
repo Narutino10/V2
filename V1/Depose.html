@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"  href="Style.css">
+    <title>Déposer une annonce</title>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <a href="#" id="logo-link">
+        <img src="Framwork/src/Lebonplan.png" alt="Lebonplan">
+      </a>
+      <nav>
+        <ul>
+          <li><a href="V2.html">Accueil</a></li>
+          <li><a href="Recherche.html">Catégories</a></li>
+          <li><a href="Recherche.html">Recherche détaillée</a></li>
+          <li><a href="#">|</a></li>
+          <li><a href="#">S'inscrire</a></li>
+          <li><a href="#">Se connecter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h1>Ajouter une annonce</h1>
+  </main>
+    <form action="submit_ad.php" method="post">
+      <label for="title">Titre de l'annonce:</label>
+      <input type="text" id="title" name="title" required>
+      <br><br>
+      <label for="description">Description de l'annonce:</label>
+      <textarea id="description" name="description" rows="5" required></textarea>
+      <br><br>
+      <label for="category">Catégorie:</label>
+      <select id="category" name="category" required>
+        <option value="">Sélectionnez une catégorie</option>
+        <option value="Voiture">Voiture</option>
+        <option value="Moto">Moto</option>
+        <option value="Vêtement">Vêtement</option>
+        <option value="Maison">Maison</option>
+    </select>
+      <br><br>
+      <label for="price">Prix:</label>
+      <input type="number" id="price" name="price" min="0" step="0.01" required>
+      <br><br>
+      <label for="photos">Photos:</label>
+      <input type="file" id="photos" name="photos" multiple>
+      <a href="#" class="cta-button cta-button--blue">Ajouter l'annonce</a>
+    </form>
+    <footer>
+        <p>&copy; 2023 Lebonplan</p>
+    </footer>
+</body>
+</html>
+
+
+

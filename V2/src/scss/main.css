@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+header {
+  background-color: var(--noir);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul li {
+  list-style: none;
+  color: #fff;
+}
+
+header {
+  background-color: #202020;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #logo {
+  width: 110px;
+  line-height: 0;
+  z-index: 10;
+}
+header nav {
+  display: flex;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  font-weight: lighter;
+}
+header nav ul li {
+  display: block;
+  padding: 0.5em;
+  color: white;
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  transition: background-color 1s;
+}
+
+.button {
+  display: block;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #202020;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  width: 300px;
+}
+.button:hover {
+  background-color: white;
+  color: #202020;
+  border: solid 2px #202020;
+}
+.button--succes {
+  background-color: #34c924;
+}
+.button--succes:hover {
+  background-color: #52dd43;
+}
+.button--alert {
+  background-color: #FF0000;
+}
+.button--alert:hover {
+  background-color: #ff3333;
+}
+
+input {
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.background {
+  background-color: #202020;
+}
+
+.formulaire {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 130px;
+}
+.formulaire .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+  width: 500px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+.formulaire .form h1 {
+  text-align: center;
+}
+.formulaire form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.formulaire form div {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  width: 300px;
+}
+
+footer {
+  background-color: #202020;
+  display: flex;
+  height: 150px;
+}
+footer #logo {
+  width: 110px;
+  line-height: 0;
+}
+
+#home1 {
+  background-color: #202020;
+  height: 600px;
+}
+
+.presentation {
+  display: flex;
+  justify-content: center;
+}
+.presentation .logo {
+  width: 350px;
+}
+.presentation .texte-presentation {
+  width: 500px;
+  display: flex;
+  align-items: center;
+}
+
+#home3 .container {
+  display: flex;
+  flex-direction: column;
+}
+#home3 .style-card {
+  display: flex;
+}
+#home3 .card-product {
+  display: flex;
+  justify-content: center;
+}
+#home3 .card {
+  width: 250px;
+  padding: 10px;
+}
+
+#home5 {
+  height: 600px;
+  background-image: url(image/boutique.webp);
+  background-size: cover;
+}
+#home5 .container {
+  position: relative;
+  top: 150px;
+}
+#home5 .boutique {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  height: 300px;
+}
+#home5 .boutique .text-boutique {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #202020;
+}
+
+#section1 {
+  height: 700px;
+  background-color: #202020;
+}
+
+#section2 {
+  height: 700px;
+}
+
+#section2 .container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h3 {
+  text-align: center;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+}
+
+.image1, .image2 {
+  width: 500px;
+}
+
+#section3 {
+  height: 750px;
+}
+
+#section3 .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.montre {
+  display: flex;
+  padding-top: 40px;
+}
+
+.montre-texte {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.montre-texte img {
+  width: 420px;
+}
+
+.montre-texte h1 {
+  margin: 0;
+}
+
+.montre-texte p {
+  text-align: center;
+}
+
+.products {
+  width: 100%;
+  align-self: center;
+  height: 70%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.product {
+  position: relative;
+  background-color: var(--sectionBack);
+  width: 300px;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+#section4 {
+  height: 500px;
+}
+
+#section5 {
+  height: 600px;
+  background-color: #202020;
+}
+
+#section7 {
+  height: 600px;
+  background-image: url(image/boutique.webp);
+  background-size: cover;
+  padding-top: 80px;
+}
+#section7 .boutique {
+  display: flex;
+  justify-content: center;
+  background-color: aqua;
+  height: 300px;
+}
+#section7 .text-boutique {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.product-section {
+  padding-top: 20px;
+}
+.product-section .produit {
+  background-color: #202020;
+  height: 650px;
+  display: flex;
+}
+.product-section .produit-title {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  color: white;
+}
+.product-section .produit-image {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-section .produit-image2 {
+  width: 400px;
+  display: flex;
+  position: relative;
+  left: 30px;
+}
+.product-section .produit-image2 div {
+  padding: 10px;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+.description .description-texte {
+  width: 700px;
+}
+.description .description-image {
+  width: 400px;
+  background-color: #202020;
+}
+.description .description-image div {
+  padding: 20px;
+}
+
+@media screen and (max-width: 320px) {
+  .product-section .produit {
+    flex-direction: column;
+  }
+  .description {
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

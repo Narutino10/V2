@@ -1,0 +1,19 @@
+Idees a faire pour le projet du challenge:
+
+c'est que du front
+
+J'ai oenser a faire un site de vente de voiture (Le bon Plan)
+copie de leboncoin
+
+
+
+
+  <footer>
+    <li><img src="src/img/15 jour.png" alt="15 jours pour changer d’avis" /><a>15 jours pour changer d’avis</a></li>
+    <li><img src="src/img/livraison.png" alt="Livraison gratuite" /><a>Livraison gratuite</a></li>
+    <li><img src="src/img/Rapide.png" alt="Livraison rapide" /><a>Livraison rapide</a></li>
+    <li><img src="src/img/lunette.png" alt="Garantie 2 ans" /><a>Garantie 2 ans</a></li>
+    <li><img src="src/img/montre.jpg" alt="Garantie 2 ans" /><a>Garantie 2 ans</a></li>
+  </footer>
+
+footr de la page Lunette
